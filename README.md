@@ -28,8 +28,10 @@ This repository contains data and analysis scripts for performing data cleaning,
 **Step 3**: Unpivot all columns except "Sales Person".
 
 ### Applying Changes
-### Close and Apply: Ensure all transformations are applied to the respective tables.
-### Check Data Model: Validate the data model for correctness and completeness.
+
+**Close and Apply:** Ensure all transformations are applied to the respective tables.
+
+**Check Data Model:** Validate the data model for correctness and completeness.
 
 ## Performance Calculations using DAX
 1. **Total Sales Actual:** SUM(Actual[Sales]) // Calculates the total actual sales across all salespeople
@@ -73,3 +75,26 @@ This repository contains data and analysis scripts for performing data cleaning,
 *This calculation creates a title indicating how many months met the sales target out of the total months available in the calendar.*
 
 ![image](https://github.com/Thuhien23/Finance-KPI/assets/96719464/110a03d9-e743-46cf-ab4d-247d6e700339)
+
+## Recommendations:
+
+### Address Underperformance: 
+1. **Investigate the reasons behind the significant shortfalls** in monthly targets. Focus particularly on the months with the highest negative variances.
+Consider implementing targeted training or **support for salespeople who consistently underperform**, such as Brien Boise and Van Tuxwell.
+
+### Reevaluate Sales Targets:
+
+2. **Assess whether the sales targets are realistic and achievable** based on market conditions and historical performance. Adjust targets if necessary to make them more attainable.
+Incentivize High Performers:
+
+3. **Recognize and reward the salespeople** who have consistently met or exceeded their targets, such as Curtice Advani and Barr Faughny, to encourage continued high performance.
+Improve Sales Strategies:
+
+4. **Develop and deploy new sales strategies** or refine existing ones to improve overall sales performance. Consider market trends, customer feedback, and competitive analysis in these strategies.
+
+### Monthly Performance Review:
+
+5. **Conduct monthly performance reviews** to identify issues early and take corrective actions promptly. This will help in keeping the sales team aligned with the targets.
+
+
+*By implementing these recommendations, the company can aim to improve overall sales performance and achieve targets more consistently in the future.*
